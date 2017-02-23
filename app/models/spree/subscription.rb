@@ -6,6 +6,7 @@ module Spree
 
     acts_as_restrictive_destroyer column: :unsubscribed_at
     attr_accessor :card_token
+    attr_accessor :coupon_code
 
     belongs_to :plan
     belongs_to :user
